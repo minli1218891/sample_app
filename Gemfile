@@ -1,12 +1,13 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
-gem 'bootstrap-sass', '2.0.4'
+gem 'bootstrap-sass', '2.0.0'
+gem 'bcrypt-ruby', '3.0.1'      #对密码进行不可逆的加密，得到密码的哈希值
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
-  gem 'rspec-rails', '2.11.0'
-  gem 'annotate', '2.5.0'
+  gem 'rspec-rails', '2.11.0'  #生成rspec测试的gem包
+  gem 'annotate', '2.5.0'      #自动生成注释的gem包
 end
 
 
