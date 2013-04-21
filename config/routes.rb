@@ -1,13 +1,15 @@
 SampleApp::Application.routes.draw do
 
+  resources :users         #Rails 用程序就可以响应符合REST架构的URI地址了
 
-  get "users/new"
   match '/signup', :to => 'users#new'
 
   match '/home', :to => 'static_pages#home'
   match '/help', :to => 'static_pages#help'
   match '/about', :to => 'static_pages#about'
   match '/contact', :to => 'static_pages#contact'
+
+
 
 
 
