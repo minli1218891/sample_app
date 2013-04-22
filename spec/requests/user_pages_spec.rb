@@ -40,9 +40,25 @@ describe "UserPages" do
 
 
     describe "with invalid information" do
+
       it "should not create a user" do
         expect { click_button submit}.not_to change(User, :count)
       end
+
+      describe "after submission" do
+
+        before {click_button submit }
+
+        it "should have the title 'Sign Up'" do
+          page.should have_selector('title', :text => "Sign Up")
+        end
+
+        it "should have the content 'error'" do
+          page.should have_content('error')
+        end
+
+      end
+
     end
 
     describe "with valid information" do
@@ -57,6 +73,26 @@ describe "UserPages" do
       it "should create a user" do
         expect { click_button submit }.to change(User, :count).by(1)
       end
+
+      describe "after saving the user" do
+
+        before { click_button submit }
+          let (:user) { User.find_by_email('user@example.com') }
+
+        it "should have the title user's name" do
+          page.should have_selector('title', :text => user.name)
+        end
+
+        it "should have the content 'Welcome'" do
+          page.should have_selector('div.alert.alert-success', :text => 'Welcome')
+        end
+
+        it "should have the link 'Sign out'" do
+          page.should have_link('Sign out')
+        end
+
+      end
+
     end
 
   end

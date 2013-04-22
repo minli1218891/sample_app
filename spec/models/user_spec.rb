@@ -10,6 +10,7 @@
 #
 
 require 'spec_helper'
+require 'SecureRandom'
 
 describe User do
 
@@ -27,6 +28,7 @@ describe User do
     @user.should respond_to(:password_digest)
     @user.should respond_to(:password)
     @user.should respond_to(:password_confirmation)
+    @user.should respond_to(:remember_token)
     @user.should respond_to(:authenticate)
 
     @user.should be_valid
@@ -124,7 +126,7 @@ describe User do
 
   describe "return value of authenticate method" do
     before { @user.save }
-    let (:found_user) { User.find_by_email (@user.email) }
+    let (:found_user) { User.find_by_email(@user.email) }
 
     describe "with valid password" do                    #验证密码合法时返回一个对象
       it "should be valid" do
@@ -138,6 +140,13 @@ describe User do
         @user.should_not == user_for_invalid_password
         user_for_invalid_password.should be_false
       end
+    end
+  end
+
+  describe "remember token" do
+    before { @user.save }
+    it "the remember_token should not be blank" do
+      @user.remember_token.should_not be_blank
     end
   end
 
