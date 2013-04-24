@@ -15,7 +15,8 @@ describe "Authentication" do
       end
 
       it "should have the error message" do
-        page.should have_selector('div.alert.alert-error', :text => 'Invalid')
+        #page.should have_selector('div.alert.alert-error', :text => 'Invalid')
+        page.should have_error_message('Invalid')
       end
 
       describe "after visiting another page" do
@@ -38,9 +39,10 @@ describe "Authentication" do
                                :password_confirmation => "foobar") }
 
       before do
-        fill_in "Email",    :with => user.email
-        fill_in "Password", :with => user.password
-        click_link "Sign in"
+        #fill_in "Email",    :with => user.email
+        #fill_in "Password", :with => user.password
+        #click_link "Sign in"
+        valid_signin(user)
       end
 
       it "should have the title 'Sign in'" do

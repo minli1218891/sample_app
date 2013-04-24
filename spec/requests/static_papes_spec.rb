@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe "StaticPapes" do
 
-  let(:base_title) { "Ruby on Rails Tutorial Sample App" }
+  #let(:base_title) { "Ruby on Rails Tutorial Sample App" }
 
   describe "Home page" do
 
@@ -14,7 +14,8 @@ describe "StaticPapes" do
 
     it "should have the title 'Home'" do
       page.should have_selector('title',
-                                :text => "#{base_title} | Home")
+                                #:text => "#{base_title} | Home")
+                                :text => full_title('Home'))
     end
 
     it "should have a custom page title" do
@@ -33,7 +34,8 @@ describe "StaticPapes" do
 
     it "should have the title 'Help'" do
       page.should have_selector('title',
-                                :text => "#{base_title} | Help")
+                                #:text => "#{base_title} | Help")
+                                 :text => full_title('Help'))
     end
 
   end
@@ -48,7 +50,8 @@ describe "StaticPapes" do
 
     it "should have the title 'About Us'" do
       page.should have_selector('title',
-                                :text => "#{base_title} | About Us")
+                                #:text => "#{base_title} | About Us")
+                                :text => full_title('About Us'))
     end
   end
 
@@ -62,7 +65,8 @@ describe "StaticPapes" do
 
     it "should have the title 'Contact'" do
       page.should have_selector('title',
-                                text => "#{base_title} | Contact")
+                                #text => "#{base_title} | Contact")
+                                :text => full_title('Contact'))
     end
   end
 
