@@ -36,6 +36,9 @@ describe "UserPages" do
   end
 
 
+
+
+
   describe "profile page" do
 
     let(:user) { User.create(:name => "Micheal Hart1",

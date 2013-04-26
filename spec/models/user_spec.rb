@@ -29,9 +29,21 @@ describe User do
     @user.should respond_to(:password)
     @user.should respond_to(:password_confirmation)
     @user.should respond_to(:remember_token)
+    @user.should respond_to(:admin)
     @user.should respond_to(:authenticate)
 
     @user.should be_valid
+    @user.should_not be_admin
+  end
+
+  describe "with admin attribute set to 'true'" do
+    before do
+      @user.save
+      @user.toggle!(:admin)
+    end
+    it "should be admin" do
+      @user.should be_admin
+    end
   end
 
   describe "when name is not present" do           #验证名字不合法

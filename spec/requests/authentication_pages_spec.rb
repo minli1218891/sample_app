@@ -75,6 +75,23 @@ describe "Authentication" do
         end
       end
 
+      describe "as non-admin user" do
+        let(:user) { User.create(:name => "Rails Tutorial",
+                                 :email => "user@example.com",
+                                 :password => "foobar",
+                                 :password_confirmation => "foobar") }
+        let(:non_admin) { User.create(:name => "Rails Tutorial",
+                                       :email => "wrong@example.com",
+                                       :password => "foobar",
+                                       :password_confirmation => "foobar") }
+        before { sign_in non_admin }
+
+        describe "submitting a DELETE request to the Users#destroy action" do
+          before { delete user_path(user) }
+          specify { response.should redirect_to(home_path)}
+        end
+      end
+
     end
 
 
