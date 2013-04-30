@@ -1,6 +1,8 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
+#source 'https://ruby.taobao.org'
 
 gem 'rails', '3.2.13'
+#gem 'rails', '3.2.12'
 gem 'bootstrap-sass', '2.0.0'
 gem 'bcrypt-ruby', '3.0.1'      #对密码进行不可逆的加密，得到密码的哈希值
 gem 'faker', '1.0.1'
@@ -25,6 +27,13 @@ gem 'jquery-rails', '2.0.2'
 group :test do
   gem 'capybara', '1.1.2'
   #gem 'factory_girl_rails', '4.1.0'
+  #if RUBY_VERSION =~ /1.9/
+  #  gem 'factory_girl_rails', :require => false
+  #  gem 'simplecov'
+  #else
+    gem 'factory_girl_rails', '1.3.0'
+    #gem 'rcov'
+  #end
   gem 'cucumber-rails', '1.2.1', :require => false
   gem 'database_cleaner', '0.7.0'
 end

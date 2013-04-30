@@ -21,6 +21,8 @@ describe User do
                      :password_confirmation => "foobar")
   end
 
+  subject { @user }
+
 
   it "should respond to attributes" do              #验证存在性
     @user.should respond_to(:name)
@@ -31,6 +33,8 @@ describe User do
     @user.should respond_to(:remember_token)
     @user.should respond_to(:admin)
     @user.should respond_to(:authenticate)
+
+    @user.should respond_to(:microposts)
 
     @user.should be_valid
     @user.should_not be_admin
@@ -160,6 +164,41 @@ describe User do
     it "the remember_token should not be blank" do
       @user.remember_token.should_not be_blank
     end
+  end
+
+
+  describe "micropost associations" do
+    before { @user.save }
+    let!(:older_micropost) do
+      FactoryGirl.create(:micropost, :user => @user, :created_at => 1.day.ago)
+    end
+    let!(:newer_micropost) do
+      FactoryGirl.create(:micropost, :user => @user, :created_at => 1.hour.ago)
+    end
+
+    it "should have the right microposts in the right order" do
+      @user.microposts.should == [newer_micropost, older_micropost]
+    end
+
+    it "should destroy associated microposts" do
+      microposts = @user.microposts.dup
+      @user.destroy
+      microposts.should_not be_empty
+      microposts.each do |micropost|
+        Micropost.find_by_id(micropost.id).should be_nil
+      end
+    end
+
+    describe "status" do
+      let(:unfollowed_post) do
+        FactoryGirl.create(:micropost, :user => FactoryGirl.create(:user))
+      end
+
+      its(:feed) { should include(newer_micropost) }
+      its(:feed) { should include(older_micropost) }
+      its(:feed) { should_not include(unfollowed_post) }
+    end
+
   end
 
 
