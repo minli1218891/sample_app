@@ -1,4 +1,4 @@
-
+<!--若为当前登录用户则不显示，否则显示“关注或者取消关注”的button-->
 <% unless current_user?(@user) %>
     <div id="follow_form">
       <% if current_user.following?(@user) %>

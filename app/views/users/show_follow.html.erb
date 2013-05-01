@@ -1,4 +1,4 @@
-
+<!--登录查看查看其关注或者粉丝信息的页面，如/users/1/followers-->
 <% provide(:title, @title) %>
 <div class="row">
   <aside class="span4">
@@ -6,7 +6,7 @@
       <%= gravatar_for @user %>
       <h1><%= @user.name %></h1>
       <span><%= link_to "view my profile", @user %></span>
-      <span><b>Microposts:</b><%- @user.microposts.count %></span>
+      <span><b>Microposts:  </b><%= @user.microposts.count %></span>
     </section>
     <section>
       <%= render 'shared/stats' %>

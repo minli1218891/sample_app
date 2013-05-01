@@ -25,7 +25,7 @@ class UsersController < ApplicationController
       #Handle a successful save.
       sign_in @user
       flash[:success] = "Welcome to the Sample App!"
-      redirect_to @user
+      redirect_to @user    #创建新用户成功后跳转至user/id页面
     else
       render 'new'
     end

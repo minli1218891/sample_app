@@ -1,4 +1,4 @@
-
+<!--登录用户自身和所关注用户的微博列表-->
 <% if @feed_items.any? %>
     <ol class="microposts">
       <%= render :partial => 'shared/feed_item', :collection => @feed_items %>
