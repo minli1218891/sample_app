@@ -1,10 +1,16 @@
 SampleApp::Application.routes.draw do
 
-  resources :users         #Rails 用程序就可以响应符合REST架构的URI地址了
+  resources :users do        #Rails 用程序就可以响应符合REST架构的URI地址了
+    member do
+      get :following,  :followers
+    end
+  end
 
   resources :sessions, :only => [:new, :create, :destroy]
 
   resources :microposts, :only => [:create, :destroy]
+
+  resources :relationships, :only => [:create, :destroy]
 
   match '/signup', :to => 'users#new'
   match '/signin', :to => 'sessions#new'

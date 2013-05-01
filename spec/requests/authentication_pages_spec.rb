@@ -2,6 +2,8 @@ require 'spec_helper'
 
 describe "Authentication" do
 
+  subject { page }
+
   describe "authorization" do
 
     describe "for non-signed-in user" do
@@ -10,6 +12,7 @@ describe "Authentication" do
       #                         :password => "foobar",
       #                         :password_confirmation => "foobar") }
       let (:user) { FactoryGirl.create(:user) }
+
 
       describe "when attempting to visit a protected page" do
         before do
@@ -50,6 +53,16 @@ describe "Authentication" do
           end
         end
 
+        describe "visiting the following page" do
+          before { visit following_user_path(user) }
+          it { should have_selector('title', :text => 'Sign in') }
+        end
+
+        describe "visiting the followers page" do
+          before { visit followers_user_path(user) }
+          it { should have_selector('title', :text => 'Sign in') }
+        end
+
       end
 
 
@@ -67,7 +80,23 @@ describe "Authentication" do
       end
 
 
+      describe "in the Relationships controller" do
+
+        describe "submitting to the create action" do
+          before { post relationships_path }
+          specify { response.should redirect_to(signin_path) }
+        end
+
+        #describe "submitting to the destroy action" do
+        #  before { delete relationships_path(1) }
+        #  specify { response.should redirect_to(signin_path) }
+        #end
+
+      end
+
+
     end
+
 
     describe "as wrong user" do
       let(:user) { User.create(:name => "Rails Tutorial",
@@ -112,8 +141,6 @@ describe "Authentication" do
 
     end
 
-
-    end
 
     describe "signin" do
 
@@ -211,3 +238,5 @@ describe "Authentication" do
     end
 
   end
+
+end
