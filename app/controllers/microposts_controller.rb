@@ -5,7 +5,7 @@ class MicropostsController < ApplicationController
   def index
   end
 
-  def create
+  def create     #创建微博
     @micropost = current_user.microposts.build(params[:micropost])
     if @micropost.save
       flash[:success] = "Micropost created!"
@@ -16,7 +16,7 @@ class MicropostsController < ApplicationController
     end
   end
 
-  def destroy
+  def destroy    #删除微博
     @micropost.destroy
     redirect_to home_url
   end
