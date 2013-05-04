@@ -9,6 +9,8 @@ gem 'faker', '1.0.1'
 gem 'will_paginate', '3.0.3', :group => [:development, :production]
 gem 'bootstrap-will_paginate', '0.0.6'
 
+gem 'rdoc-data'
+
 group :development, :test do
   gem 'sqlite3', '1.3.5', :group => [:development, :test]
   gem 'rspec-rails', '2.11.0'  #生成rspec测试的gem包
