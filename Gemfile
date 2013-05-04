@@ -1,6 +1,8 @@
 source 'http://rubygems.org'
 #source 'https://ruby.taobao.org'
 
+ruby "2.0.0"
+
 gem 'rails', '3.2.13'
 #gem 'rails', '3.2.12'
 gem 'bootstrap-sass', '2.0.0'
@@ -9,7 +11,7 @@ gem 'faker', '1.0.1'
 gem 'will_paginate', '3.0.3', :group => [:development, :production]
 gem 'bootstrap-will_paginate', '0.0.6'
 
-gem 'rdoc-data'
+#gem 'rdoc-data'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5', :group => [:development, :test]
