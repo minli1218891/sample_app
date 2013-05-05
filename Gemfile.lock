@@ -132,6 +132,8 @@ GEM
     rake (10.0.4)
     rdoc (3.12.2)
       json (~> 1.4)
+    rdoc-data (3.12)
+      rdoc (> 2.5, < 4.0)
     rest-client (1.6.7)
       mime-types (>= 1.16)
     rspec (2.11.0)
@@ -200,6 +202,7 @@ DEPENDENCIES
   jquery-rails (= 2.0.2)
   pg (= 0.12.2)
   rails (= 3.2.13)
+  rdoc-data
   rspec-rails (= 2.11.0)
   sass-rails (~> 3.2.5)
   sqlite3 (= 1.3.5)
