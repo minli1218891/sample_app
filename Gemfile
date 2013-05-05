@@ -10,7 +10,7 @@ gem 'will_paginate', '3.0.3'
 gem 'bootstrap-will_paginate', '0.0.6'
 
 group :development, :test do
-  gem 'sqlite3', '1.3.5'
+  gem 'sqlite3', '1.3.5', :group => [:development, :test]
   gem 'rspec-rails', '2.11.0'  #生成rspec测试的gem包
   gem 'annotate', '2.5.0'      #自动生成注释的gem包
 end
@@ -40,5 +40,6 @@ end
 
 group :production do
   gem 'pg', '0.12.2'
+  gem 'thin'
   gem 'heroku'
 end
