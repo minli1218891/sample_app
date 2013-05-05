@@ -118,7 +118,7 @@ describe "Authentication" do
       describe "submitting a PUT request to the User#update action" do
         before { put user_path(wrong_user) }
         it "should redirect to the home path" do
-          response.should redirect_to(home_path)
+          response.should redirect_to(root_path)
         end
       end
 
@@ -135,7 +135,7 @@ describe "Authentication" do
 
         describe "submitting a DELETE request to the Users#destroy action" do
           before { delete user_path(user) }
-          specify { response.should redirect_to(home_path)}
+          specify { response.should redirect_to(root_path)}
         end
       end
 

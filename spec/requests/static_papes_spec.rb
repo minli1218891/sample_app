@@ -7,7 +7,7 @@ describe "StaticPapes" do
 
   describe "Home page" do
 
-    before { visit home_path }
+    before { visit root_path }
 
     it "should have the h1 'Sample App'" do
       page.should have_selector('h1', :text => 'Sample App')
@@ -30,7 +30,7 @@ describe "StaticPapes" do
         FactoryGirl.create(:micropost, :user => user, :content => "Lorem ipsum")
         FactoryGirl.create(:micropost, :user => user, :content => "Dolor sit amet")
         sign_in user
-        visit home_path
+        visit root_path
       end
 
       it "should render the user's feed" do
@@ -44,7 +44,7 @@ describe "StaticPapes" do
         let(:other_user) { FactoryGirl.create(:user) }
         before do
           other_user.follow!(user)
-          visit home_path
+          visit root_path
         end
 
         it { should have_link ( "0 following", :href => following_user_path(user)) }
