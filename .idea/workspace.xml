@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Gemfile" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1368457178335" ignored="false" />
     <file path="/hello.html" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1366122389777" ignored="false" />
-    <file path="/Dummy.txt" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1367128278777" ignored="false" />
+    <file path="/Dummy.txt" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1368676721720" ignored="false" />
     <file path="/static_papes_spec.rb" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1367737107366" ignored="false" />
     <file path="/home.html.erb" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1367418051801" ignored="false" />
     <file path="/help.html.erb" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1366206291954" ignored="false" />
@@ -21,7 +21,7 @@
     <file path="/contact.html.erb" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1366208388025" ignored="false" />
     <file path="/application_helper.rb" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1366775578733" ignored="false" />
     <file path="/application.html.erb" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1366561002658" ignored="false" />
-    <file path="/a.dummy" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1368494772042" ignored="false" />
+    <file path="/a.dummy" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1368679237136" ignored="false" />
     <file path="/example_User.rb" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1366291175804" ignored="false" />
     <file path="$PROJECT_DIR$/../../../projects/cp-reporting/app/helpers/agentdesktop/reports/vendor_report/vendor_email_helper.rb" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1366293734917" ignored="false" />
     <file path="/custom.css.scss" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1367392315758" ignored="false" />
@@ -53,8 +53,8 @@
     <file path="/sample_data.rake" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1367299848287" ignored="false" />
     <file path="/factories.rb" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1367252181309" ignored="false" />
     <file path="/20130426074158_add_admin_to_users.rb" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1366962150542" ignored="false" />
-    <file path="$USER_HOME$/Projects/REA/studio/app/models/user.rb" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1366966642098" ignored="false" />
-    <file path="$USER_HOME$/Projects/REA/studio/hosts" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1366969424095" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../REA/studio/app/models/user.rb" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1366966642098" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../REA/studio/hosts" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1366969424095" ignored="false" />
     <file path="/_user.html.erb" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1367418491960" ignored="false" />
     <file path="/20130426145425_create_microposts.rb" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1366988117156" ignored="false" />
     <file path="/micropost_spec.rb" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1367253806984" ignored="false" />
@@ -76,8 +76,9 @@
     <file path="/relationships_controller.rb" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1367421214106" ignored="false" />
     <file path="/_fields.html.erb" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1367419839590" ignored="false" />
     <file path="/Gemfile.lock" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1367505915381" ignored="false" />
-    <file path="$USER_HOME$/Projects/REA/studio/config/initializers/health_check.rb" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1368459060579" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../REA/studio/config/initializers/health_check.rb" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1368459060579" ignored="false" />
     <file path="$USER_HOME$/.rvm/gems/ree-1.8.7-2011.03@studio/gems/rea-health-check-0.0.9/lib/diagnostic.rb" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1368459131043" ignored="false" />
+    <file path="/health_check.rb" changelist="f34cbb40-824c-4781-8d3b-a97bacc5a2ab" time="1368671015936" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,64 +95,64 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="health_check.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/initializers/health_check.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="25" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0">
+            <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.5979381">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="environment.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <file leaf-file-name="health_check.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2012.02/gems/health_check-1.2.0/lib/health_check.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="77" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+            <state line="34" column="11" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_pages_spec.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/requests/user_pages_spec.rb">
+      <file leaf-file-name="users_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="5" selection-start="848" selection-end="848" vertical-scroll-proportion="0.70846903">
+            <state line="78" column="38" selection-start="1739" selection-end="1739" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newrelic.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/newrelic.yml">
+      <file leaf-file-name="utils.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2012.02/gems/health_check-1.2.0/lib/health_check/utils.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="42" selection-start="3086" selection-end="3086" vertical-scroll-proportion="0.0">
+            <state line="78" column="11" selection-start="2865" selection-end="2865" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+        <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2012.02/gems/health_check-1.2.0/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="19" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+            <state line="8" column="21" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile.lock" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <file leaf-file-name="add_23_routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2012.02/gems/health_check-1.2.0/lib/health_check/add_23_routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="31" selection-start="2330" selection-end="2330" vertical-scroll-proportion="0.0">
+            <state line="10" column="30" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <file leaf-file-name="health_check_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2012.02/gems/health_check-1.2.0/lib/health_check/health_check_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="704" column="42" selection-start="47689" selection-end="47689" vertical-scroll-proportion="0.0">
+            <state line="27" column="9" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -167,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/micropost.rb" />
         <option value="$PROJECT_DIR$/app/views/shared/_feed.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
@@ -180,16 +180,17 @@
         <option value="$PROJECT_DIR$/.idea/sample_app.iml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/Gemfile.lock" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/spec/requests/user_pages_spec.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/initializers/health_check.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="417" />
+    <option name="x" value="312" />
     <option name="y" value="22" />
-    <option name="width" value="1009" />
+    <option name="width" value="1114" />
     <option name="height" value="762" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -219,7 +220,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -238,6 +238,64 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="health_check (v1.2.0, RVM: ree-1.8.7-2012.02) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="health_check (v1.2.0, RVM: ree-1.8.7-2012.02) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="health_check" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="health_check (v1.2.0, RVM: ree-1.8.7-2012.02) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="sample_app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -252,7 +310,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,11 +328,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="requests" />
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -288,20 +346,71 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="initializers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="ruby.project.structure" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="options.lastSelected" value="ruby.project.structure" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../REA/cp-agentadmin" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Rails.Development: sample_app">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -430,6 +539,13 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -463,13 +579,6 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
@@ -611,14 +720,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="417" y="22" width="1009" height="762" extended-state="0" />
-    <editor active="false" />
+    <frame x="312" y="22" width="1114" height="762" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.04040404" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.028571429" sideWeight="0.99906194" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2482663" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22429906" sideWeight="0.56390977" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27621722" sideWeight="0.9714286" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.8842105" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32756132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -627,7 +737,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43609023" sideWeight="0.9987923" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1904048" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -692,58 +801,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="24" selection-start="2479" selection-end="2482" vertical-scroll-proportion="1.7128028" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/authentication_pages_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="52" selection-start="4650" selection-end="4650" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/microposts_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="25" selection-start="492" selection-end="492" vertical-scroll-proportion="0.5135135" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/micropost_pages_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="25" selection-start="928" selection-end="928" vertical-scroll-proportion="0.5847751" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="12" selection-start="1713" selection-end="1713" vertical-scroll-proportion="0.67554075" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/static_papes_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="20" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.024958402" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/sessions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="522" selection-end="522" vertical-scroll-proportion="0.48859936" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_header.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="38" selection-start="238" selection-end="238" vertical-scroll-proportion="0.15" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/sample_app.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="16" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="704" column="42" selection-start="47689" selection-end="47689" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/newrelic.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="76" column="42" selection-start="3086" selection-end="3086" vertical-scroll-proportion="0.0">
@@ -758,30 +815,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+    <entry file="file://$PROJECT_DIR$/spec/requests/user_pages_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="31" selection-start="2330" selection-end="2330" vertical-scroll-proportion="0.0">
+        <state line="29" column="5" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="25" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0">
+        <state line="39" column="33" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="187" column="25" selection-start="4487" selection-end="4487" vertical-scroll-proportion="-2.56">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/rubies/ree-1.8.7-2012.02/lib/ruby/1.8/dl/win32.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="6" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs18/proc.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="8" selection-start="2586" selection-end="2586" vertical-scroll-proportion="0.48026314">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2012.02/gems/health_check-1.2.0/lib/health_check/version.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="77" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
+        <state line="5" column="77" selection-start="153" selection-end="153" vertical-scroll-proportion="0.12820514">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/user_pages_spec.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2012.02/gems/health_check-1.2.0/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="5" selection-start="848" selection-end="848" vertical-scroll-proportion="0.70846903">
+        <state line="8" column="21" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2012.02/gems/health_check-1.2.0/lib/health_check/add_23_routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="30" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2012.02/gems/health_check-1.2.0/lib/health_check/utils.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="11" selection-start="2865" selection-end="2865" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="38" selection-start="1739" selection-end="1739" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2012.02/gems/health_check-1.2.0/lib/health_check/health_check_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="9" selection-start="917" selection-end="917" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ree-1.8.7-2012.02/gems/health_check-1.2.0/lib/health_check.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="11" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/health_check.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="15" selection-start="15" selection-end="15" vertical-scroll-proportion="-0.5979381">
           <folding />
         </state>
       </provider>
