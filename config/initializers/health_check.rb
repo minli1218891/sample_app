@@ -23,6 +23,32 @@ HealthCheck.setup do |config|
   #  CustomHealthCheck.perform_check # any code that returns blank on success and non blank string upon failure
   #end
 
+
+
+  config.add_custom_check do
+    user_check
+  end
+
+  def user_check
+    begin
+      user = User.find_by_email("minli@thoughtworks.com")
+      if user.name == "limin"
+        return ""
+      else
+        return "user's name does not match to user's id"
+      end
+    rescue
+      return "user doesn't exist"
+    end
+  end
+
+
+
+
+  #config.add_custom_check do
+  #  database_check
+  #end
+  #
   #def database_check
   #  begin
   #    user = User.find(2)
@@ -42,18 +68,7 @@ HealthCheck.setup do |config|
 
 
 
-  #config.add_custom_check do
-  #  database_check
-  #end
-  #
-  #def database_check
-  #  user = User.find(2)
-  #  if user.name == "limin"
-  #    return ""
-  #  else
-  #    return "user's name does not match to user's id"
-  #  end
-  #end
+
 
 
 end
